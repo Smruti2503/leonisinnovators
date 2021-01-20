@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*--Header Section--*/
+#header {
+  width: 100%;
+  height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url(images/headerImg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(images/headerImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header nav {
+  padding: 1rem 0;
+}
+
+#header nav .navbar-brand {
+  display: inline-block;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header nav .navbar-brand img {
+  margin-right: 3px;
+}
+
+#header nav .navbar-brand h1 {
+  margin-bottom: 0;
+  color: skyblue;
+  font-weight: 700;
+}
+
+#header nav .navbar-brand h5 {
+  font-weight: bolder;
+  color: black;
+}
+
+#header nav .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-weight: 400;
+  margin-right: 0.3rem;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+#header nav .navbar-nav .nav-item .nav-link:hover {
+  color: orange;
+}
+
+#header .textWrapper {
+  padding-top: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+#header .textWrapper .row .headerTextWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header .textWrapper .row .headerTextWrapper .headerText .pair {
+  margin-bottom: 55px;
+}
+
+#header .textWrapper .row .headerTextWrapper .headerText .pair h4 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+#header .textWrapper .row .headerTextWrapper .headerText .pair h4 span {
+  color: Orange;
+}
+
+#header .textWrapper .row .headerTextWrapper .headerText .pair p {
+  color: white;
+}
+
+#header .textWrapper .row .headerTextWrapper .headerText button {
+  background: orange;
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  padding: 1.2rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  width: 100%;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+#header .textWrapper .row .headerTextWrapper .headerText button:hover {
+  -webkit-filter: drop-shadow(0 0 5px orange);
+          filter: drop-shadow(0 0 5px orange);
+}
+
+/*--About Section--*/
+#about {
+  width: 100%;
+  height: auto;
+  background: #115772;
+}
+
+#about svg {
+  background: white;
+}
+
+#about .lastSvg {
+  background: #115772;
+}
+
+#about .aboutText {
+  padding: 0.3rem;
+}
+
+#about .aboutText h2 {
+  color: white;
+  margin-top: 0.3rem;
+}
+
+#about .aboutText p {
+  color: white;
+  margin: 2rem auto;
+  font-size: 1rem;
+}
+
+#about .aboutDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#about .aboutDetails .innerAbout {
+  background: orange;
+  color: white;
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  margin: 0.6rem auto;
+  padding: 0.6rem;
+}
+
+#about .aboutDetails .innerAbout p {
+  font-size: 0.8rem;
+}
+
+#about .aboutDetails .innerAbout h3 {
+  font-size: 1.4rem;
+}
+
+#about .aboutDetails .innerAbout small {
+  font-size: 1.05rem;
+}
+
+#about .aboutDetails .schedule {
+  position: relative;
+}
+
+#about .aboutDetails .schedule div {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+}
+
+#about .aboutDetails .schedule div h3 {
+  font-size: 1.6rem;
+}
+
+/*--client testimonial section--*/
+#client {
+  width: 100%;
+  height: auto;
+  background: gray;
+  padding: 1rem 0;
+}
+
+#client .clientTextWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+}
+
+#client .clientTextWrapper p {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+/*--product Section--*/
+#product {
+  width: 100%;
+  height: auto;
+  background: #115772;
+}
+
+#product svg {
+  background-color: white;
+}
+
+#product .leftProduct {
+  padding-bottom: 1.6rem;
+}
+
+#product .leftProduct h3 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+#product .leftProduct p {
+  line-height: 2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+#product .leftProduct a {
+  color: orange;
+  text-decoration: none;
+}
+
+#product .newsWrapper {
+  color: white;
+  padding: 0 0.6rem;
+}
+
+#product .newsWrapper h3 {
+  text-align: center;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
+
+#product .newsWrapper .news h5 {
+  font-weight: bold;
+  position: relative;
+}
+
+#product .newsWrapper .news h5::before {
+  content: "";
+  background: white;
+  width: 0.3rem;
+  height: 0.1rem;
+  position: absolute;
+  left: -4%;
+  top: 50%;
+  display: inline-block;
+}
+
+#product .newsWrapper .news p {
+  font-size: 0.8rem;
+}
+
+/*--footer section--*/
+#footer {
+  width: 100%;
+  height: auto;
+}
+
+#footer .serviceHighlights h5 {
+  border-bottom: 1px dashed black;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#footer .serviceHighlights ul {
+  padding-left: 0;
+}
+
+#footer .serviceHighlights ul li {
+  list-style: none;
+  line-height: 2rem;
+}
+
+#footer .serviceHighlights ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 700;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+#footer .serviceHighlights ul li a:hover {
+  color: orange;
+}
+
+#footer .productHighlights h5 {
+  border-bottom: 1px dashed black;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#footer .productHighlights ul {
+  padding-left: 0;
+}
+
+#footer .productHighlights ul li {
+  list-style: none;
+  line-height: 1.8rem;
+}
+
+#footer .productHighlights ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 700;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+#footer .productHighlights ul li a:hover {
+  color: orange;
+}
+
+#footer .newsletter {
+  padding: 1rem 0;
+}
+
+#footer .newsletter h5 {
+  font-style: italic;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+#footer .newsletter .iconsWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  margin-bottom: 1.5rem;
+}
+
+#footer .newsletter .iconsWrapper img {
+  width: 40px;
+  -webkit-transition: 0.7s linear;
+  transition: 0.7s linear;
+}
+
+#footer .newsletter .iconsWrapper img:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#footer .newsletter form input {
+  width: 100%;
+  outline: 0;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid gray;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+#footer .newsletter form button {
+  width: 100%;
+  outline: 0;
+  padding: 0.4rem 0.6rem;
+  border: none;
+  background: orange;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+#footer .newsletter form button:hover {
+  -webkit-filter: drop-shadow(0 0 10px orange);
+          filter: drop-shadow(0 0 10px orange);
+}
+
+/*--Media queries--*/
+@media screen and (max-width: 566px) {
+  html {
+    font-size: 95%;
+  }
+  #about .aboutDetails .innerAbout {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    display: inline-block;
+    min-height: 150px;
+  }
+  #footer .newsletter .iconsWrapper {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
